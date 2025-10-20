@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", Roboto;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sectionFone{
+    background-image: url('/images/background.png');
+    height: 100vh;
+    max-height: 600px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 70px;
+}
+
+.a56{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    color: #fff;
+}
+
+.logo{
+    max-height: 150px;
+    height: 95%;
+    width: 15%;
+    background-color: brown;
+    
+}
+
+/*.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    */
+
