@@ -20,11 +20,26 @@
 
 .a56{
     display: flex;
-    flex-direction: column;
-}
-
-h2{
-    color: #fff;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: aqua;
+    max-width: 90%;
+    margin: 0 auto;
+ }
+ 
+ .a56 img{
+     max-height: 400px;
+     background-color: rgb(238, 255, 0);
+     margin-right: 0;
+ }
+ 
+ h1{
+ 
+     font-size: 70px;
+     font-weight: 400;
+     color: #fff;
+     padding: 0px 2em 0px 0px;
+     flex-wrap: wrap;
 }
 
 .logo{
